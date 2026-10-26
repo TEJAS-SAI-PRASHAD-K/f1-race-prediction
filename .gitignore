@@ -1,0 +1,27 @@
+# Data — the FastF1 cache and any local dumps get large
+data/
+*.db
+*.sqlite3
+
+# Model artifacts
+models/
+*.joblib
+*.ubj
+
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
